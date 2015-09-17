@@ -28,7 +28,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TWC.Helpers", "TWC.Helpers\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TWC.AuthProviders", "TWC.AuthProviders\TWC.AuthProviders.csproj", "{0B95FA35-8DFC-475C-8832-CFA3DE04B9FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TWC.WebAPI", "TWC.WebAPI\TWC.WebAPI.csproj", "{E9A97315-B9B3-459D-9BC2-9AEA43E478FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TWC.WebAPI", "TWC.WebAPI\TWC.WebAPI.csproj", "{894F0350-82A8-4FCE-9F33-2F901286C7AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -94,12 +94,12 @@ Global
 		{0B95FA35-8DFC-475C-8832-CFA3DE04B9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B95FA35-8DFC-475C-8832-CFA3DE04B9FD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0B95FA35-8DFC-475C-8832-CFA3DE04B9FD}.Release|x86.ActiveCfg = Release|Any CPU
-		{E9A97315-B9B3-459D-9BC2-9AEA43E478FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E9A97315-B9B3-459D-9BC2-9AEA43E478FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E9A97315-B9B3-459D-9BC2-9AEA43E478FE}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{E9A97315-B9B3-459D-9BC2-9AEA43E478FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E9A97315-B9B3-459D-9BC2-9AEA43E478FE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E9A97315-B9B3-459D-9BC2-9AEA43E478FE}.Release|x86.ActiveCfg = Release|Any CPU
+		{894F0350-82A8-4FCE-9F33-2F901286C7AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{894F0350-82A8-4FCE-9F33-2F901286C7AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{894F0350-82A8-4FCE-9F33-2F901286C7AE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{894F0350-82A8-4FCE-9F33-2F901286C7AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{894F0350-82A8-4FCE-9F33-2F901286C7AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{894F0350-82A8-4FCE-9F33-2F901286C7AE}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
