@@ -102,6 +102,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -120,8 +121,33 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Repository.Pattern.Ef6\Repository.Pattern.Ef6.csproj">
+      <Project>{f68a1d19-93fb-47c1-a22b-42bea3e4fd8c}</Project>
+      <Name>Repository.Pattern.Ef6</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Repository.Pattern\Repository.Pattern.csproj">
+      <Project>{6e682a14-c872-4813-b620-76e108dea683}</Project>
+      <Name>Repository.Pattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Service.Pattern\Service.Pattern.csproj">
+      <Project>{86f86650-ee3c-4372-8fec-40c2fe015022}</Project>
+      <Name>Service.Pattern</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TWC.AuthProviders\TWC.AuthProviders.csproj">
+      <Project>{0b95fa35-8dfc-475c-8832-cfa3de04b9fd}</Project>
+      <Name>TWC.AuthProviders</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TWC.Entities\TWC.Entities.csproj">
+      <Project>{9826fc10-5f6e-43b7-a6e5-0f2f28c3840b}</Project>
+      <Name>TWC.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TWC.Repositories\TWC.Repositories.csproj">
+      <Project>{8990C071-6CC7-4E26-8891-183F8BD02176}</Project>
+      <Name>TWC.Repositories</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
