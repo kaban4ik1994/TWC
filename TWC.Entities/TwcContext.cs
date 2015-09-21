@@ -16,8 +16,5 @@ namespace TWC.Entities
 			: base("TwcContext")
 		{
 		}
-
-		public DbSet<Client> Clients { get; set; }
-		public DbSet<RefreshToken> RefreshTokens { get; set; }
 	}
 }

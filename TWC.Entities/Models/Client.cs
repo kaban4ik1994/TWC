@@ -1,10 +1,8 @@
-﻿using System.Collections.Generic;
-using Repository.Pattern.Ef6;
-using TWC.Enums;
+﻿using TWC.Enums;
 
 namespace TWC.Entities.Models
 {
-	public class Client : Entity
+	public class Client
 	{
 		public string Id { get; set; }
 		public string Secret { get; set; }

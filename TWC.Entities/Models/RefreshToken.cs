@@ -1,9 +1,8 @@
 ﻿using System;
-using Repository.Pattern.Ef6;
 
 namespace TWC.Entities.Models
 {
-	public class RefreshToken : Entity
+	public class RefreshToken
 	{
 		public string Id { get; set; }
 		public string Subject { get; set; }

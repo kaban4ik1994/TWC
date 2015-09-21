@@ -29,7 +29,7 @@ namespace TWC.WebAPI
 			WebApiConfig.Register(config);
 			app.UseCors(Microsoft.Owin.Cors.CorsOptions.AllowAll);
 			app.UseWebApi(config);
-			Database.SetInitializer(new TwcContextInitializer());
+			Database.SetInitializer(new AuthContextInitializer());
 		}
 
 		public void ConfigureOAuth(IAppBuilder app)

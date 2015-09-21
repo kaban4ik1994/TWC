@@ -12,12 +12,12 @@ namespace TWC.Repositories
 {
 	public class AuthRepository : IDisposable, IAuthRepository
 	{
-		private TwcContext _context;
+		private AuthContext _context;
 		private UserManager<IdentityUser> _userManager;
 
 		public AuthRepository()
 		{
-			_context = new TwcContext();
+			_context = new AuthContext();
 			_userManager = new UserManager<IdentityUser>(new UserStore<IdentityUser>(_context));
 		}
 
