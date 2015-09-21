@@ -13,7 +13,5 @@ namespace TWC.Entities.Models
 		public bool Active { get; set; }
 		public int RefreshTokenLifeTime { get; set; }
 		public string AllowedOrigin { get; set; }
-
-		public List<RefreshToken> Tokens { get; set; }
 	}
 }

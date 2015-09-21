@@ -13,13 +13,12 @@ namespace TWC.WebAPI.Controllers
 {
 	public class AccountController : ApiController
 	{
-		public Task<IHttpActionResult> Get()
+		public async Task<IHttpActionResult> Get()
 		{
 			AuthRepository auth = new AuthRepository();
-			var test = new Repository<Client>(new TwcContext(), new UnitOfWork(new TwcContext()));
-			test.Insert(new Client());
-			auth.RegisterUser("test", "testsadsadsa");
-			return null;
+			var user = await auth.RegisterUser("test", "123123123");
+			var a = await auth.FindUser("test", "123123123");
+			return Ok(a);
 		}
 	}
 }

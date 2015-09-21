@@ -73,6 +73,10 @@
       <Project>{85cdc339-1b0b-456f-b646-805796785265}</Project>
       <Name>TWC.Enums</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TWC.Helpers\TWC.Helpers.csproj">
+      <Project>{0bed1fdf-7cd8-448c-bb22-dbfa77d2d5ae}</Project>
+      <Name>TWC.Helpers</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -17,8 +17,6 @@ namespace TWC.Entities.Mapping
 			Property(client => client.AllowedOrigin).HasMaxLength(100);
 
 			ToTable("Clients");
-
-			HasMany(entity => entity.Tokens).WithRequired(token => token.Client).HasForeignKey(token => token.ClientId);
 		}
 	}
 }

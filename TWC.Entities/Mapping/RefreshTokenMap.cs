@@ -16,8 +16,6 @@ namespace TWC.Entities.Mapping
 			Property(token => token.ProtectedTicket).IsRequired();
 
 			ToTable("Tokens");
-
-			HasRequired(entity => entity.Client).WithMany(client => client.Tokens).HasForeignKey(token => token.ClientId);
 		}
 	}
 }
